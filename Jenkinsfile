@@ -42,7 +42,7 @@ pipeline {
                       -Dsonar.projectKey=sonyhl05_hello-world-war \
                       -Dsonar.organization=sonyhl05 \
                       -Dsonar.host.url=https://sonarcloud.io \
-                      -Dsonar.login=$SONAR_TOKEN
+                      -Dsonar.token=$SONAR_TOKEN
                     '''
                 }
             }

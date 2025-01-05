@@ -5,7 +5,7 @@ pipeline {
      //   jdk 'JDK11'         // Specify your JDK version
     //}
     environment {
-        SONAR_TOKEN = credentials('SONAR_TOKEN') // Store token in Jenkins credentials
+        SONAR_TOKEN = credentials('sonarcloud-token') // Store token in Jenkins credentials
     }
     
        stages 

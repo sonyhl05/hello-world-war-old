@@ -65,7 +65,7 @@ pipeline {
 
         stage('Deploy to staging') {
           when {
-             branch *
+             branch !main
            }
             steps {
                 echo "Deploying to staging"
